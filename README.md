@@ -6,7 +6,7 @@ This field work exactly like the [structure field](https://getkirby.com/docs/che
 
 ## Instructions
 
-Place the `snippetfield` folder in `site/fields`.
+Place this repository in `site/fields/snippetfield`.
 
 ## 1. Blueprint with `style: items` (default)
 
