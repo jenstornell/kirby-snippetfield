@@ -18,7 +18,7 @@ I used the example from the docs. I have replaced `entry` with `snippet` and add
 fields:
   addresses:
     label: Addresses
-    type: structure
+    type: snippetfield
     snippet: mydir/snippet
     style: items
     fields:
@@ -43,7 +43,7 @@ For the table style you need a snippet for every field.
 fields:
   addresses:
     label: Addresses
-    type: structure
+    type: snippetfield
     style: table
     fields:
       street:
@@ -132,6 +132,7 @@ You now also have access to `$key` which is the column slug.
 - **Image galleries** can be created quite easily.
 - **If statements**. Maybe you want to display a pink elephant every time a value is true. Now you can.
 - **Advanced stuff** could be made, like take the value, run it trough Google Analytics, get some data back and present that.
+<<<<<<< HEAD
 
 ## Changelog
 
@@ -144,3 +145,5 @@ You now also have access to `$key` which is the column slug.
 **0.1**
 
 - Initial release
+=======
+>>>>>>> origin/master
