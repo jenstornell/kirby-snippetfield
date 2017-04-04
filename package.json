@@ -1,0 +1,8 @@
+{
+  "name": "kirby-snippetfield",
+  "description": "Snippets in a Kirby CMS structure field.",
+  "author": "Jens Törnell <jens.tornell@gmail.com>",
+  "version": "0.2",
+  "type": "kirby-plugin",
+  "license": "MIT"
+}

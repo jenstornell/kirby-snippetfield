@@ -1,5 +1,7 @@
 # Kirby Snippetfield
 
+*Version 0.2*
+
 This field work exactly like the [structure field](https://getkirby.com/docs/cheatsheet/panel-fields/structure). In fact it's a copy of it with some important changes.
 
 ***The Snippetfield does not use entry. Instead it uses snippets.***
@@ -78,7 +80,7 @@ echo $page->title();
 
 ### `$field` object
 
-To give you a hind of what it contains, do this (might be slow or crash):
+To give you a hint of what it contains, do this (might be slow or crash):
 
 ```php
 print_r( $field );
@@ -116,6 +118,8 @@ In this case I have an `image` field and the `$value` will be `filename.jpg`. It
 <img src="<?php echo thumb($page->image($value), array('width' => 150))->url(); ?>">
 ```
 
+You now also have access to `$key` which is the column slug.
+
 ## What is wrong with entry?
 
 - It does not support any logic.
@@ -128,3 +132,15 @@ In this case I have an `image` field and the `$value` will be `filename.jpg`. It
 - **Image galleries** can be created quite easily.
 - **If statements**. Maybe you want to display a pink elephant every time a value is true. Now you can.
 - **Advanced stuff** could be made, like take the value, run it trough Google Analytics, get some data back and present that.
+
+## Changelog
+
+**0.2**
+
+- Made it a plugin instead of a field. Will probably require Kirby 2.4.1 from now on.
+- Added key to `style: table` which is the column slug.
+- Added `package.json` which means Kirby CLI support.
+
+**0.1**
+
+- Initial release

@@ -23,7 +23,8 @@
                 echo tpl::load(c::get( 'snippetfield.path', kirby()->roots()->snippets() ) . DS . $f['snippet'] . '.php', array(
                   'page' => $page,
                   'field' => $field,
-                  'value' => $entry->{$f['name']},
+                  'key' => $f['name'],
+                  'value' => @$entry->{$f['name']},
                   'style' => $style,
                 ), true);
             } else {
