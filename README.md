@@ -138,7 +138,7 @@ You now also have access to `$key` which is the column slug.
 **0.2**
 
 - Made it a plugin instead of a field. Will probably require Kirby 2.4.1 from now on.
-- Added key to `style: table` which is the column slug.
+- Added `$key` to `style: table` which is the column slug.
 - Added `package.json` which means Kirby CLI support.
 
 **0.1**
