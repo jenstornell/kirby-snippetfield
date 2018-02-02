@@ -8,7 +8,7 @@ This field work exactly like the [structure field](https://getkirby.com/docs/che
 
 ## Instructions
 
-Place the `snippetfield` folder in `site/fields`.
+Place the `snippetfield` folder in `site/plugins`.
 
 ## 1. Blueprint with `style: items` (default)
 
